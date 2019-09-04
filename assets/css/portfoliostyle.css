@@ -163,3 +163,41 @@ color: #ffffff;
 h6 {
     text-align: center;
 }
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    h1 {
+        float: left; 
+        clear: both;
+        color: #ffffff;
+        padding: 10px 12px;
+        margin: 0;
+        background-color: #4aaaa5;
+    }
+    .name{
+        height: 40px;
+        position: absolute;
+        margin-left: 195px;
+        float: left;
+        clear: both;
+    }
+
+        #nav{
+            margin-left:auto;
+            margin-right: auto;
+            width: 620px;
+            height: 100px;
+            padding: 0;
+        }
+    
+    
+}
